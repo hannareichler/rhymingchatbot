@@ -1,0 +1,29 @@
+<!DOCTYPE html><html><head>
+  <script src="rita-full.js"></script>
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&amp;display=swap" rel="stylesheet">
+
+</head><body>
+  <div class="main-container">
+    <div class="screen shadow" id="txtScreen">
+
+      <div class="container">
+      
+        <p>Hello. I am a rhyming chat bot. Type a word and give me a shot. </p>
+      </div>
+
+    </div>
+    <div class="container darker input-box">
+      <input type="text" id="msg" placeholder="let's pass some time" onkeydown="keyDown(event)">
+      <button id="submit" onclick="send()">let's rhyme!</button>
+    </div>
+  </div>
+  <script src="sketch.js"></script>
+
+
+</body></html>
