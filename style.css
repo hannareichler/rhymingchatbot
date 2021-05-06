@@ -2,6 +2,7 @@ html, body {
   margin: 10, 0;
   padding: 0;
   width: 100%;
+  padding:0px;
   height: 100%;
   font-family: 'Space Mono', monospace;
   background: #E4EBF5;
@@ -21,9 +22,9 @@ body{
  justify-self: center;
  color: black;
  outline: none;
- //box-shadow:.8rem .8rem 1.4rem #c8d0e7, 
+ //box-shadow:.8rem .8rem 1.4rem #c8d0e7,
             -.2rem -.2rem 1.8rem #FFFFFF;
-  align-self: center; 
+/*   align-self: center; */
 }
 
 canvas {
@@ -34,24 +35,24 @@ canvas {
 /* input box*/
 #msg{
   font-family: 'Space Mono', monospace;
-  width: 70%; 
+  width: 70%;
   padding: 5px;
   border-radius: 10px;
   outline: none;
   border: none;
   background: #E4EBF5;
   color: black;
-  box-shadow: .3rem .3rem .6rem #c8d0e7, 
+  box-shadow: .3rem .3rem .6rem #c8d0e7,
 -.2rem -.2rem .5rem #FFFFFF;
 }
 
-/*let's rhyme button */ 
-#submit{  
-  position: sticky;
+/*let's rhyme button */
+#submit{
   padding: 5px;
+  margin-left: 20px;
   border-radius: 10px;
   font-family: 'Space Mono', monospace;
-  box-shadow: .3rem .3rem .6rem #c8d0e7, 
+  box-shadow: .3rem .3rem .6rem #c8d0e7,
 -.2rem -.2rem .5rem #FFFFFF;
   border: none;
   background: #E4EBF5;
@@ -59,42 +60,40 @@ canvas {
   text-decoration: none;
   justify-content: center;
   outline: none;
- 
+
 }
 
 .input-box{
-  font-family: 'Space Mono', monospace;
+ font-family: 'Space Mono', monospace;
   min-width: 526px;
-  max-width: 700px; 
-    position: sticky;
-  width: 70%;
+  max-width: 700px;
+  width: 100%;
   border: none;
   outline: none;
   text-decoration: none;
   background-color: #E4EBF5;
   border-radius: 20px !important;
-  box-shadow:.8rem .8rem 1.4rem #c8d0e7, 
+  box-shadow:.8rem .8rem 1.4rem #c8d0e7,
             -.2rem -.2rem 1.8rem #FFFFFF;
-
+  position: sticky;
+    display: flex;
 }
 
 .screen{
- /* margin-top: 20px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   margin-right: 50px;
-  margin-left: 50px; */
-   width: 70%; 
+  margin-left: 50px;
+  width: 100%;
+  outline: none;
   height: 80%;
   overflow: auto;
-  padding: 10px;
-/*   border: solid; */
-  border-radius: 20px;
-  outline: none;
-  overflow: auto;
+  padding: 30px;
   border-radius: 20px;
   min-width: 400px;
-  max-width: 700px;
+  max-width: 500px;
   background: #E4EBF5;
+  outline: none;
 }
 
 .center{
@@ -106,27 +105,27 @@ canvas {
 
 .content{
   width: 100%;
-  height: 100%; 
+  height: 100%;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   outline: none;
 }
 
 
-.container { 
+.container {
   font-family: 'Space Mono', monospace;
   background-color: #E4EBF5;
   border-radius: 5px;
   padding: 20px;
   margin: 20px 0;
-  box-shadow: .3rem .3rem .6rem #c8d0e7, 
+  box-shadow: .3rem .3rem .6rem #c8d0e7,
 -.2rem -.2rem .5rem #FFFFFF;
   outline: none;
 }
 
 .right-txt{
   font-family: 'Space Mono', monospace;
-  float:right; 
+  float:right;
   outline: none;
 }
 
@@ -140,5 +139,5 @@ canvas {
   clear: both;
   display: table;
   outline: none;
-  
+
 }
